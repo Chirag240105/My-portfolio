@@ -1,0 +1,192 @@
+*{
+    margin: 0.5px 5px 5px 5px;
+    
+    background-color: #8F87F1;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    color: azure;
+    text-decoration: none;
+    font-weight: 600;
+}
+p1{
+    font-size: 24px;
+    font-weight: 500;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.navOne{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+text-decoration: underline;
+text-shadow: 2px 2px 15px black;
+}
+.navTwo{
+    position: absolute;
+    display: flex;
+     left: 50%;
+    transform: translateX(-50%); 
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.HomePage{
+    display: flex;
+    justify-content: space-between;
+}
+.img{
+ border-radius: 50%;
+ background-image: url("IMG-20250603-WA0003[1].jpg");
+ background-size: cover;
+ height: 520px;
+ width: 500px;
+ background-color: aqua;
+}
+.content{
+    font-size: 48px
+
+}
+.skill{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 19px;
+
+}
+
+
+.sk1Img{
+    height: 190px;
+    width: 190px;
+    background-image: url("html.png");
+    background-size: cover;
+}
+.sk1{
+   display: grid;
+   justify-content: center;
+   margin: 24px ;
+   padding: 12px;
+}
+p2{
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.sk1Img{
+    height: 190px;
+    width: 190px;
+    border: 7px solid black;
+    border-radius: 20px;
+    box-shadow: 6px 5px 6px black;
+    background-image: url("html.png");
+    background-size: cover;
+}
+.sk2Img{
+    height: 190px;
+    width: 190px;
+    box-shadow: 6px 5px 6px black;
+    border: 7px solid black;
+    border-radius: 20px;
+    background-image: url("css.png");
+    background-size: cover;
+}
+.sk3Img{
+    height: 190px;
+    width: 190px;
+    border: 7px solid black;
+    border-radius: 20px;
+box-shadow: 6px 5px 6px black;
+    background-image: url("js.png");
+    background-size: cover;
+}
+.sk4Img{
+    height: 190px;
+    width: 190px;
+    border: 7px solid black;
+    box-shadow: 6px 5px 6px black;
+    border-radius: 20px;
+    background-image: url("cpp.png");
+    background-size: cover;
+}
+.sk5Img{
+    height: 190px;
+    width: 190px;
+    border: 7px solid black;
+    box-shadow: 6px 5px 6px black;
+    border-radius: 20px;
+    background-image: url("python.jpeg");
+    background-size: cover;
+}
+p4{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+h3{
+ text-align: center;   
+ font-size: 40px;
+ margin-bottom: 30px;
+}
+
+.projects{
+    display: flex;
+    direction:ltr;
+    justify-content: center;
+    height: 400px;
+    column-gap: 70px;
+}
+.Project_img{
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  height: 290px;
+    width: 400px;
+    border-radius: 20px;
+    border: 5px solid black;
+    background-image: url("agri.png");
+ box-shadow: 3px 4px 4px black;
+    background-size: cover;
+}
+.currConv_Img{
+    height: 290px;
+  border-radius: 20px;
+    border: 5px solid black;
+    width: 400px;
+ text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ box-shadow: 3px 4px 4px black;
+    background-image: url("currency\ converter.jpg");
+background-size: cover;
+}
+.contact{
+    display: flex;
+    align-items: center;
+        justify-content: center;
+flex-direction: column;
+background-color: antiquewhite;
+        font-size: 30px;
+        width: 400px;
+        transform: translate(550px, 18px);
+       box-shadow:3px 3px 6px white;
+       border: 2px solid black;
+       border-radius: 15px;
+}
+form{
+display: grid;
+gap: 5px;
+justify-content: center;
+}
+h3{
+    background-color: aliceblue;
+    margin-top: 20px;
+}
+input, label, form{
+    background-color: antiquewhite;
+}
+input, submit{
+    height: 30px;
+}
